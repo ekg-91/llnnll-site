@@ -1,20 +1,19 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Pricing from '../Pricing'
-import PropTypes from 'prop-types'
+import React from 'react';
+import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
 
-const PricingPageTemplate = ({
-  title,
-  meta_title,
-  meta_description,
-  pricing,
+const GalleryPageTemplate = ({
+	title,
+	meta_title,
+	meta_description,
+	gallery,
 }) => (
-  <div>
-    <Helmet>
-      <title>{meta_title}</title>
-      <meta name='description' content={meta_description} />
-    </Helmet>
-    <section className='hero'>
+	<div>
+		<Helmet>
+			<title>{meta_title}</title>
+			<meta name='description' content={meta_description} />
+		</Helmet>
+		<section className='hero'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
@@ -36,28 +35,26 @@ const PricingPageTemplate = ({
             <div className='column is-10 is-offset-1'>
               <div className='content'>
                 <h2 className='has-text-weight-semibold is-size-2'>
-                  {pricing.heading}
+                  {gallery ? gallery.heading : ''}
                 </h2>
-                <p className='is-size-5'>{pricing.description}</p>
-                <Pricing data={pricing.plans} />
+                <p className='is-size-5'>{gallery ? gallery.description : ''}</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  </div>
+	</div>
 )
 
-PricingPageTemplate.propTypes = {
+GalleryPageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
+  gallery: PropTypes.shape({
     description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
+    heading: PropTypes.string,
+  })
 }
 
-export default PricingPageTemplate
+export default GalleryPageTemplate

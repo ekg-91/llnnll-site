@@ -1,40 +1,55 @@
 ---
 templateKey: pricing-page
-title: Pricing
-meta_title: Pricing | Gatsby Starter Business
+title: Services
+meta_title: Services | llnnll Records
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  A list of services provided by the record label
 pricing:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo, 
-    non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet 
-    mattis leo. Vivamus aliquam rhoncus tortor vitae convallis. Aliquam non dui nibh. Nam 
-    a velit at enim sagittis pellentesque.
-  heading: Monthly subscriptions
+    Here is a list of services we offer. Contact us for more information!
+  heading: Services Provided by llnnll Records
   plans:
-    - description: Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu
+    - description: Post-processing of recorded audio
       items:
-        - Lorem ipsum dolor sit amet
-        - consectetur adipiscing elit
-        - Nunc finibus sem a sem ultrices
-      plan: Pro
-      price: '50'
-    - description: Mauris vitae dolor eu mauris malesuada cursus.
+        - Production
+        - Mixdowns
+        - Mastering
+      plan: Production Engineering
+      price: 'Priceless'
+    - description: Recording space and expert set up
       items:
-        - eget sagittis magna tempor
-        - Quisque pulvinar lorem molestie
-        - Proin at sagittis ex
-      plan: Enterprise
-      price: '80'
-    - description: Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus.
+        - Available recording space
+        - Top of the line equipment
+        - Experienced recording engineer
+      plan: Recording Engineering
+      price: '3.50'
+    - description: Staging, Lighting, and Audio Equipment Rentals
       items:
-        - Pellentesque luctus neque id mauris accumsan
-        - nec imperdiet justo eleifend
-        - Sed eget ornare orci
-      plan: Custom
-      price: '??'
+        - Large, portable outdoor stage
+        - Lots o lights
+        - Speakers and speakers and speakers and...
+      plan: Staging, Lighting, and Audio Equipment Rentals
+      price: 'Arm, Leg'
+    - description: The expertise to set up and run the lights, sound system, and stage.
+      items:
+        - Capable and experienced techs to run the show for you
+        - Live sound engineering and light engineering
+        - Let us run the show so you can sit back and relax
+      plan: Stage Tech, Live Light and Sound Engineering
+      price: 'Arm, Leg, Firstborn'
+    - description: The Network to Promote and Publicize your Work, plus Marketing Materials, Merch, Branding and more...
+      items:
+        - Broad network of music blogs, radio stations, news media, streaming sites, and all manner of outlets to publicize your material
+        - We'll help you define your unique brand and develop the materials to succeed in the modern music industry
+        - Access to vendors who will customize your own branded merchandise!
+      plan: Marketing and Branding
+      price: 'Soul'
+    - description: A Network of Venues and Event Organizers
+      items:
+        - Make sure you're playing shows as often as you want
+        - Get the exposure you need to guarantee the success you're looking for
+      plan: Booking
+      price: 'Seoul'
+
 ---
 
